@@ -1,4 +1,5 @@
 import React from "react";
+import CountdownTimer  from './CountdownTimer'
 import { confirmarAsistencia, verUbicacion } from "../utils/index.js";
 
 function Invitation() {
@@ -7,7 +8,9 @@ function Invitation() {
 
   return (
     <div className="max-w-lg bg-[#f9f0e7] p-6 rounded-lg shadow-2xl text-center">
+      <CountdownTimer targetDate="2025-03-01" />
       <img src="Pooh_invitation.png" alt="Invitación de Pooh" className="w-full mt-4" />
+      
       <div className="buttons flex justify-center p-4">
         <button
           className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-2"

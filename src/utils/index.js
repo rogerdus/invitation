@@ -7,3 +7,5 @@ export function confirmarAsistencia() {
 export function verUbicacion() {
     window.open("https://maps.app.goo.gl/JMPfMoyeEt4rnpkHA", "_blank");
 }
+
+
