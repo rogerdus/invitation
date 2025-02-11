@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;600&display=swap');  /* This MUST be at the top */
+@import "tailwindcss";
+
+:root { /* Now your other CSS rules can go here */
+    --dancing-script: 'Dancing Script', cursive;
+    --poppins: 'Poppins', sans-serif;
+}
+
+.dancing-script {
+    font-family: var(--dancing-script);
+}
+
+.poppins {
+    font-family: var(--poppins);
+}
